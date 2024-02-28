@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time Burday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Quiz!🤣</h1>
+    </header>
+
+    <main>
+        <section id="question-section">
+            <h2>Question 1</h2>
+            <p>What is the date that we became official?</p>
+            <ul>
+                <li><label><input type="radio" name="q1" value="August 12"> August 12</label></li>
+                <li><label><input type="radio" name="q1" value="October 30"> October 30</label></li>
+                <li><label><input type="radio" name="q1" value="October 28"> October 28</label></li>
+            </ul>
+        </section>
+
+        <section id="question-section">
+            <h2>Question 2</h2>
+            <p>How many months are we in now?</p>
+            <ul>
+                <li><label><input type="radio" name="q2" value="18 months"> 18 months</label></li>
+                <li><label><input type="radio" name="q2" value="25 months"> 25 months</label></li>
+                <li><label><input type="radio" name="q2" value="27 months"> 27 months</label></li>
+            </ul>
+        </section>
+
+        <section id="question-section">
+            <h2>Question 3</h2>
+            <p>Where did we first met?</p>
+            <ul>
+                <li><label><input type="radio" name="q3" value="Megamall"> Megamall</label></li>
+                <li><label><input type="radio" name="q3" value="Omegle"> Omegle</label></li>
+                <li><label><input type="radio" name="q3" value="Market Market"> Market Market</label></li>
+            </ul>
+
+            <button id="submit-btn">Submit Answers</button>
+        </section>
+
+        <section id="result-section" style="display: none;">
+            <h2>Your Score</h2>
+            <p id="score">0</p>
+            <p id="result-message"></p>
+            <button id="retake-btn">Retake Quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Burday's Quiz Time!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
